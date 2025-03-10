@@ -1,0 +1,88 @@
+QWidget {
+    background-color: #ffffff;
+    margin: 0px;
+    padding: 0;
+    font-family: Arial;
+}
+
+#filenameLabel, #questionLabel, #correctAnswerLabel, 
+#incorrectAnswerLabel1, #incorrectAnswerLabel2 {
+    font-size: 14px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#questionLabel {
+    font-weight: bold;
+}
+
+#titleLabel {
+    font-size: 21px;
+    color: rgb(10, 16, 212);
+    font-weight: bold;
+    margin-left: 1px;
+}
+
+#entryFilenameInput {
+    color: rgb(10, 16, 212);
+}
+
+#headerLabel {
+    font-size: 18px;
+    margin-bottom: 35px;
+    margin-left: 3px;
+}
+
+#welcomeLabel {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+#infoLabel {
+    font-size: 14px;
+}
+
+#entryFilenameInput, #entryQuestionInput, #entryCorrectAnswerInput, 
+#entryIncorrectAnswerInput1, #entryIncorrectAnswerInput2 {
+    font-size: 16px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255);
+    height: 30px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-weight: bold;
+    border: 1 solid rgb(206, 206, 206);   
+}
+
+#entryCorrectAnswerInput {
+    color: green;
+}
+
+#entryIncorrectAnswerInput1, #entryIncorrectAnswerInput2 {
+    color: red;     
+} 
+
+#previousButton, #nextButton {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 10px;
+    width: 1px;
+}
+
+#saveButton {
+    font-size: 11px;
+    color: rgb(0, 0, 0);
+    border: none;
+    padding: 11px;
+    width: 11px;
+}
+
+#footerLabel {
+    font-weight: bold;
+    font-size: 15px;
+}
