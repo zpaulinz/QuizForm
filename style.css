@@ -8,11 +8,8 @@ QWidget {
 #filenameLabel, #questionLabel, #correctAnswerLabel, 
 #incorrectAnswerLabel1, #incorrectAnswerLabel2 {
     font-size: 14px;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-#questionLabel {
+    margin-left: 45px;
+    margin-right: 45px;
     font-weight: bold;
 }
 
@@ -23,26 +20,22 @@ QWidget {
     margin-left: 1px;
 }
 
-#entryFilenameInput {
-    color: rgb(10, 16, 212);
-}
-
 #headerLabel {
     font-size: 18px;
-    margin-bottom: 35px;
+    margin-bottom: 20px;
     margin-left: 3px;
 }
 
-#welcomeLabel {
+/* #welcomeLabel {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 35px;
     margin-left: 25px;
     margin-right: 25px;
-}
+}*/
 
 #infoLabel {
-    font-size: 14px;
+    margin-bottom: 30px;
 }
 
 #entryFilenameInput, #entryQuestionInput, #entryCorrectAnswerInput, 
@@ -51,11 +44,20 @@ QWidget {
     border-radius: 8px;
     background-color: rgba(255, 255, 255);
     height: 30px;
-    margin-bottom: 20px;
-    margin-left: 25px;
-    margin-right: 25px;
-    font-weight: bold;
-    border: 1 solid rgb(206, 206, 206);   
+    margin-bottom: 40px;
+    margin-left: 45px;
+    margin-right: 45px;
+    /* font-weight: bold; */
+    border: 1 solid rgb(232, 232, 232);   
+}
+
+#entryFilenameInput {
+    color: rgb(10, 16, 212);
+    margin-bottom: 0px;
+}
+
+#entryIncorrectAnswerInput2 {
+    margin-bottom: 30px;
 }
 
 #entryCorrectAnswerInput {
@@ -78,12 +80,12 @@ QWidget {
     font-size: 11px;
     color: rgb(0, 0, 0);
     border: none;
-    padding: 11px;
+    padding: 10px;
     width: 11px;
 }
 
 #footerLabel {
-    font-weight: bold;
-    font-size: 15px;
+    font-size: 16px;
     background-color: transparent;
+    font-weight: bold;
 }
