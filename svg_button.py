@@ -21,7 +21,7 @@ class SvgButton(QPushButton):
         # Default set as disabled
         self.is_enabled = False
         self.current_renderer = self.disabled_renderer
-        self.setIconSize(QSize(40, 40))  
+        self.setIconSize(QSize(30, 30))  
 
 
     # Override setEnabled to control the icon
