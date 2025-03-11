@@ -1,3 +1,6 @@
+# Copyright (c) 2025 Paulina Zabielska
+# All rights reserved. This code cannot be used, copied, modified, or distributed for commercial purposes without the author's permission.
+
 import os
 from PyQt5.QtWidgets import QWidget, QLabel, QLineEdit, QGridLayout
 from PyQt5.QtCore import Qt
