@@ -1,5 +1,7 @@
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[![ForTheBadge uses-css](http://ForTheBadge.com/images/badges/uses-css.svg)](http://ForTheBadge.com)
+![Static Badge](https://img.shields.io/badge/PyQt5-brightgreen?style=for-the-badge&color=%231D00FA)
+![Static Badge](https://img.shields.io/badge/PYTHON-brightgreen?style=for-the-badge&color=%230F1FFA)
+![Static Badge](https://img.shields.io/badge/CSS-brightgreen?style=for-the-badge&color=%236600FF)
+
 
 # QuizForm
 A desktop application for creating questions and answers in JSON format, designed for the QuickQuiz app. Developed using Python, CSS and PyQt5.
