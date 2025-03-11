@@ -1,6 +1,6 @@
 import sys
 from PyQt5.QtWidgets import QApplication
-from quizform import QuizForm
+from quiz_form import QuizForm
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
